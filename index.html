@@ -52,6 +52,8 @@
   .clair .surtitre { color: #1D7380; }
   .clair .intro { color: var(--gris); }
 
+  .demo { width: 100%; border-radius: 24px; display: block; background: #0A2038; box-shadow: 0 20px 56px rgba(4,16,30,.5); aspect-ratio: 16 / 9; }
+  .credits-video { font-size: 14px; color: var(--doux); margin: 14px 0 0; }
   /* Fonctions */
   .grille { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
   .carte { background: var(--nuit-2); border-radius: 20px; padding: 26px 26px 28px; border-top: 5px solid var(--turquoise); }
@@ -156,6 +158,18 @@
       <div class="ecran"><img src="images/e2.jpg" alt="Écran Trie tes articles du pouce : glisser à droite pour À lire, à gauche pour passer" loading="lazy"><h3>2. Trie du pouce</h3><p>À droite à lire, à gauche on passe, deux touchers pour les favoris.</p></div>
       <div class="ecran"><img src="images/lecture.jpg" alt="Un article de The Conversation ouvert dans Veille Direct, en mode Lecture" loading="lazy"><h3>3. Lis à ton rythme</h3><p>Les articles s’ouvrent dans l’app, en mode Lecture quand le site le permet.</p></div>
     </div>
+  </div>
+</section>
+
+<section style="padding-bottom:0">
+  <div class="bloc">
+    <p class="surtitre">En vidéo</p>
+    <h2>Veille Direct en action</h2>
+    <p class="intro">Deux minutes pour faire le tour de l’app, sur iPhone.</p>
+    <video class="demo" controls preload="none" playsinline poster="images/demonstration.jpg">
+      <source src="images/demonstration.mp4" type="video/mp4">
+    </video>
+    <p class="credits-video">Articles : The Conversation France (CC BY-ND) et NASA (domaine public). Musique : « Carefree », Kevin MacLeod (incompetech.com), CC BY 4.0.</p>
   </div>
 </section>
 
